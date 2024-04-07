@@ -1,0 +1,550 @@
+*{
+    margin: 0%;
+    padding:  0%;
+    box-sizing: border-box ;
+    font-family: "Salesforce Sans",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 600;
+             
+}
+body,html{
+height: 100%;
+width: 100%;
+}
+.Main{
+    height: 100%;
+    width: 100%;
+
+}
+#header{
+    height: 13%;
+    width: 100%;
+    background-color: white;
+    color: #032d60;
+    position: fixed;
+    display: flex;
+    align-items: center ;
+    font-size: 16px;
+}
+#header #logo{
+    width: 68px;
+    height: 40px;
+    margin: 24px;
+    margin-right: -50px;
+}
+#header #logo img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+#fakeheader{
+    height: 13%;
+    width: 100%;
+  background-color: gray;
+}
+#page1{
+    height: 80%;
+    width: 100%;
+}
+#page1rest{
+    height: 100%;
+    width: 100%; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=1536,480");
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
+#header #contact a ,#contact p{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(3, 45, 96);
+    margin: 4px 0px;
+    margin-left: 150px;
+}
+#header #contact p{
+    margin-left: 130px;
+}
+#header #textbox{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;   
+    margin: 60px;   
+    margin-right: 300px;
+}
+#header #text{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    font-size: 15px;
+    margin: 0%;
+}
+#header #box{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 16px;
+    margin-left: -130px;
+
+}
+#header #icon{
+    width: 16px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   margin-left: 24px;
+   margin-top: 4px;
+}
+#header #login{
+
+    width: 18px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   margin-left: 24px;
+
+}
+#header #login p{
+    font-size: 14px;
+    padding-left: 2px;
+}
+#header button{
+    margin-left: 66px;
+    height: 38px;
+    width: 127px;
+    color: white;
+    background-color:   #2e844a ;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-right: -20px;
+    margin-top: 5px;
+    padding: 2px;
+}
+#text:hover{
+color: #0176d3;
+}
+a :hover{
+color: #0176d3;
+}
+#try button:hover{
+    background-color: #032d60;
+}
+#line   {
+    background-color: #032d60;
+    height: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1px;
+}
+#line p{
+    padding: 10px;
+    font-weight: 650;
+    font-size: 15px;
+}
+#line a {
+     padding: 10px;
+    font-weight: 650;
+    font-size: 15px;
+    color: white;
+}
+#textpage1{
+    margin-top: 45px;
+    font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#textpage1 h1{
+    font-size: 50px;
+    color: #032d60;
+    font-weight: 650;
+    margin-top: -10px;
+}
+#textpage1 p{
+
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+#wrap{
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#videopage1 video{
+    width: 640px;
+    height: 325px;
+    overflow: hidden;
+    padding-left: 100px;
+    margin-top: 65px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+#wrap button{
+   height: 50px;
+   width: 150px;
+   margin-top: 40px;
+}
+#btn1{
+    background-color: #0176d3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+#btn2{
+    background-color: white;
+    color: #0176d3;
+    border: 2px solid  #0176d3;
+    border-radius: 5px;
+
+}
+#btn1:hover{
+    background-color: #032d60;
+}
+#btn2:hover{
+    color: #032d60;
+    border: 2px solid  #032d60;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#page1text h1 {
+    font-size: 35px;
+    color: #032d60;
+    font-weight: 650;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#page1text p{
+    font-size: 35px;
+    color: #032d60;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2rest{
+    height: 80%;
+    width: 100%; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:-10% -30%;
+   background-attachment: scroll;
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625");
+}
+#page2 #box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#page2 #box img {
+    width: 100%;
+    object-fit: contain;
+}
+#box1,#box2,#box3,#box4 {
+    margin-top: 40px;
+    height: 380px;
+    width: 270px;
+   margin-left: 30px; 
+    border-radius: 8px 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: center;
+    
+}
+#boxtext{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+#boxtext h1{
+font-size: 20px;
+margin-bottom: 18px;
+font-weight: 630;
+
+}
+#boxtext p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+#boxtext a{
+    font-size: 15px;
+    color: black;
+    margin-left: 2px;
+}
+#boxtext3-4 h1{
+    font-size: 20px;
+margin-bottom: 18px;
+font-weight: 630;
+}
+#boxtext3-4{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+#boxtext3-4 p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-bottom: 43px;
+}
+#boxtext3-4 a {
+    font-size: 15px;
+    color: black;
+    margin-left: 2px;
+}
+#boxtext h1:hover{
+    color: #0176d3;
+}
+#boxtext3-4 h1:hover{
+    color: #0176d3;
+}
+#boxtext3-4 a:hover{
+    color: #0176d3;
+}
+#boxtext a:hover{
+    color: #0176d3;
+}
+#page2rest{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#btnpage2{
+    color: #0176d3;
+    background-color: white;
+    border: 2px solid #0176d3;
+    margin-top: 60px;
+    font-size: 15px;
+    width: 210px;
+    border-radius: 4px;
+    height: 45px;
+}
+#btnpage2:hover{
+    color: #032d60;
+    border: 2px solid #032d60;
+    
+}
+#page3{
+    height: 100%;
+}
+#page3 #text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+#page3 #text h1 {
+    font-size: 48px;
+    font-weight: 645;
+    color: #032d60;
+    font-family: "Salesforce Sans",system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#text1{
+    margin-top: 40px;
+    margin-left: 390px;
+    margin-right: 350px;
+}
+#page3 #text1 p {
+    align-items: center;
+    font-size: 19px;
+    color: #032d60;
+    padding: 1px;
+    font-weight: 490;
+    margin-left: 50px;
+}
+#page3 #text1 #p2  {
+   margin-left: -2px;
+
+}
+#page3 #btn1 ,#page3 #btn2 {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texth1{
+    margin-top: 48px;
+    margin-left: 370px;
+}
+#texth1 h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #032d60;
+}
+#texth1 #textp1  {
+    margin-top: 25px;
+    margin-right: 370px;
+    margin-left: 100px;
+}
+#texth1 #textp1 p {
+    font-weight: 400;
+}
+#texth1 #textp1 #p2 {
+    margin-top: 2px;
+    margin-left:200px;
+}
+#page4{
+    margin-top: -170px;
+}
+#page4 #box1, #page4 #box2,#page4 #box3{
+    width: 350px;
+    margin-left: 70px;
+    height: 420px;
+}
+#page4 img {
+    height: 110px;
+    margin-top: 20px;
+}
+#page4  button {
+    color: #032d60;
+    background-color: #1ea7fd33;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#page4 #box {
+    margin-left: -20px;
+}
+#page4 #box1 h1, #page4 #box2 h1,#page4 #box3 h1{
+   color: #032d60;
+   font-size: 24px;
+   font-weight: 700;
+}
+#boxtext-1 , #boxtext-2{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+#boxtext-1 h1 , #boxtext-1 h2{
+font-size: 20px;
+margin-bottom: 18px;
+font-weight: 630;
+
+}
+#boxtext-1 a {
+  color: #032d60;
+  font-size: 15px;
+}
+#boxtext-1 p {
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+#boxtext-2 a {
+    color: #032d60;
+    font-size: 15px;
+  }
+  #boxtext-2 p {
+    margin-top: 20px;
+      margin-bottom: 60px;
+      font-weight: 400;
+  }
+#page4 #boxtext3-4 p {
+    margin-top: 40x;
+    font-size: 15px;
+    margin-bottom: 90px;
+    margin-right: -10px;
+}
+#page4 #boxtext3-4 a{
+    font-size: 15px;
+}
+#page5 #btn2{
+    width:150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 15px;
+}
+#page5 #text h1 {
+    font-size: 37px;
+    color: #032d60;
+    font-weight: 650;
+}
+#page5 #text{
+   margin-left: 370px;
+   margin-right: 320px;
+}
+#page5 #text #h1-2 {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+#page5 #text #h1-3 {
+    margin-top: -10px;
+    margin-left: 250px;
+}
+#page5 #btn3{
+    width:200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    font-size: 15px;
+    background-color: white;
+    color: #0176d3;
+    border: 2px solid  #0176d3;
+    border-radius: 5px;
+}
+#page5 #btn3:hover{
+    color: #032d60;
+    border: 2px solid  #032d60;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#boxes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#page5 #boxes #box1,#page5 #boxes #box2,#page5 #boxes #box3,#page5 #boxes #box4,#page5 #boxes #box5,#page5 #boxes #box6,#page5 #boxes #box7,#page5 #boxes #box8 {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: #fff;
+    border-radius: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    box-shadow: 0 2px 8px -2px hsla(0,0%,9%,.08), 0 8px 12px -2px hsla(0,0%,9%,.16);
+}
+
+#page5 #boxes img{
+    height:70px;
+    width: 150px;  
+}
+#page5 #boxes #box5,#page5 #boxes #box6 {
+    margin-top: 40px;
+}
